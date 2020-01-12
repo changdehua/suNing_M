@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,userscable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+        <link rel="stylesheet" type="text/less" href="./less/index-swpier.less">
+        <script src="./lib/less/less.min.js"></script>
+        <script src="./lib/zepto/zepto.min.js"></script>
+        <script src="./lib/swiper/js/swiper.jquery.min.js"></script>
+        <title>m_suNing</title>
+</head>
+<body>
+        <!-- 版心 -->
+        <div class="container">
+                <!-- 顶部 -->
+                <header class="sn_topBar">
+                        <a href="javascript:;" class="icon_category"></a>
+                        <form action="javascript:;">
+                                <span class="icon_search"></span>
+                                <input type="search" name="" id="" placeholder="60寸电视免费拿">
+                        </form>
+                        <a href="javascript:;" class="icon_cart"></a>
+                </header>
+                <!-- 轮播图 -->
+                <div class="swiper-container">
+                        <ul class="swiper-wrapper">
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner01.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner02.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner03.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner04.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner05.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner06.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner07.jpg" alt=""></a></li>
+                                <li class="swiper-slide"><a href="javsscript:;"><img src="./images/banner08.jpg" alt=""></a></li>
+                        </ul>
+                        <ul class="swiper-pagination">
+                        </ul>
+                </div>
+                <!-- 导航 -->
+                <nav class="sn_nav">
+                        <ul class="clearFix">
+                                <li><a href="JavaScript:;"><img src="./images/nav01.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav02.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav03.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav04.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav05.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav01.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav02.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav03.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav04.png" alt=""><span>分类</span></a></li>
+                                <li><a href="JavaScript:;"><img src="./images/nav05.png" alt=""><span>分类</span></a></li>
+                        </ul>
+                </nav>
+                <!-- 页签 -->
+                <div class="sn_tabs">
+                        <ul>
+                                <li><a href="javascript:;"><span class="fa fa-home"></span><p>首页</p></a></li>
+                                <li><a href="javascript:;"><span class="fa fa-reorder"></span><p>分类</p></a></li>
+                                <li><a href="javascript:;"><span class="fa fa-file-text-o"></span><p>必抢清单</p></a></li>
+                                <li><a href="javascript:;"><span class="fa fa-user"></span><p>我的易购</p></a></li>
+                                <li><a href="javascript:;"><span class="fa fa-suitcase"></span><p>新手大礼包</p></a></li>
+                        </ul>
+                </div>
+        </div>
+        <script>
+                $(function(){
+                        new Swiper('.swiper-container',{
+                                autoplay: true,
+                                speed:1000,
+                                stopOnLastSlide: true,
+                                pagination: '.swiper-pagination',
+                                loop:true
+  
+
+
+                        });
+                })
+        </script>
+</body>
+</html>
